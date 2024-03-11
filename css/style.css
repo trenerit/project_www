@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   height: 300vh;
@@ -94,6 +98,14 @@ header p {
 .content a span {
   flex-basis: 20%;
   padding-left: 10px;
+}
+
+section {
+  min-height: 100vh;
+}
+section h2 {
+  padding-top: 12vh;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
