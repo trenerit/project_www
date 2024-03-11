@@ -2,9 +2,25 @@ section {
 
     min-height: 100vh;
 
+    &:nth-of-type(even) {
+
+        background-color: whitesmoke;
+
+    }
+
     h2 {
         padding-top: 12vh;
         text-align: center;
+        font-size: 2.8rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+        padding-left: 30px;
+    }
+
+    p {
+        padding-left: 30px;
     }
 
 }
