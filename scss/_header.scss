@@ -1,8 +1,8 @@
-@use 'variables' as *;
+@use 'variables' as v;
 
 header {
     height: 100vh;
-    background: url('../assets/img/bg-header.webp') center/cover fixed;
+    background: v.$picture-bg-header;
     color: #fff;
 
     display: flex;
@@ -42,13 +42,13 @@ header {
         align-items: center;
         width: 260px;
         padding: 15px;
-        background-color: $color-bg-link-header;
+        background-color: v.$color-bg-link-header;
         border-radius: 6px;
         font-size: 140%;
         margin-top: 50px;
         transition: 0.5s;
         &:hover {
-            background-color: $color-bg-link-header-href;
+            background-color: v.$color-bg-link-header-hover;
             transform: translateY(-10px);
         }
         span {

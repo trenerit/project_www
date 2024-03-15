@@ -1,6 +1,8 @@
+@use 'variables' as *;
+
 nav {
     height: 10vh;
-    background-color: #260101;
+    background-color: $color-bg-nav;
     color: #fff;
     position: fixed;
     width: 100%;
