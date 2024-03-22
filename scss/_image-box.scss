@@ -1,0 +1,28 @@
+@use 'mixins' as *;
+
+.image-box {
+    border-radius: 6px;
+    box-shadow: 0 0 15px gray;
+
+    &:hover {
+        box-shadow: 0 0 25px gray;
+    }
+
+    &-picture {
+        background: url('../assets/img/bg-header.webp') center/cover;
+        height: 220px;
+        display: block;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+
+        @include medium {
+            height: 160px;
+        }
+    }
+
+    &-text {
+        text-align: center;
+        padding: 15px;
+        font-size: 18px;
+    }
+}

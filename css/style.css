@@ -52,6 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .col {
   width: 100%;
+  padding: 10px;
 }
 @media screen and (min-width: 800px) {
   .col-md25 {
@@ -174,10 +175,31 @@ section h2 {
 }
 section h3 {
   font-size: 2rem;
-  padding-left: 30px;
 }
-section p {
-  padding-left: 30px;
+
+.image-box {
+  border-radius: 6px;
+  box-shadow: 0 0 15px gray;
+}
+.image-box:hover {
+  box-shadow: 0 0 25px gray;
+}
+.image-box-picture {
+  background: url("../assets/img/bg-header.webp") center/cover;
+  height: 220px;
+  display: block;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+@media screen and (min-width: 800px) {
+  .image-box-picture {
+    height: 160px;
+  }
+}
+.image-box-text {
+  text-align: center;
+  padding: 15px;
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=style.css.map */

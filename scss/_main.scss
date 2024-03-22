@@ -18,19 +18,5 @@ section {
 
     h3 {
         font-size: 2rem;
-        padding-left: 30px;
     }
-
-    p {
-        padding-left: 30px;
-        // @include box;
-        // background-color: yellow;
-        // @include medium {
-        //     background-color: lightblue;
-        // }
-        // @include large {
-        //     background-color: lightcoral;
-        // }
-    }
-
 }
