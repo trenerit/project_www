@@ -1,3 +1,7 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -43,6 +47,30 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (min-width: 800px) {
   .row {
     flex-direction: row;
+  }
+}
+
+.col {
+  width: 100%;
+}
+@media screen and (min-width: 800px) {
+  .col-md25 {
+    flex: 0 0 25%;
+  }
+}
+@media screen and (min-width: 800px) {
+  .col-md50 {
+    flex: 0 0 50%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .col-lg25 {
+    flex: 0 0 25%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .col-lg50 {
+    flex: 0 0 50%;
   }
 }
 
