@@ -1,5 +1,6 @@
 *, *::before, *::after {
   box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 
 html {
@@ -9,7 +10,6 @@ html {
 body {
   margin: 0;
   height: 300vh;
-  font-family: "Lato", sans-serif;
 }
 
 a {
@@ -200,6 +200,29 @@ section h3 {
   text-align: center;
   padding: 15px;
   font-size: 18px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 20px;
+  display: block;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid gray;
+  font-size: 1.2rem;
+  transition: 0.5s;
+  resize: none;
+}
+
+input[type=submit]:hover {
+  background-color: lightgray;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
