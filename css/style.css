@@ -60,6 +60,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media screen and (min-width: 800px) {
+  .col-md33 {
+    flex: 0 0 33.333333%;
+  }
+}
+@media screen and (min-width: 800px) {
   .col-md50 {
     flex: 0 0 50%;
   }
@@ -223,6 +228,11 @@ input, textarea {
 input[type=submit]:hover {
   background-color: lightgray;
   cursor: pointer;
+}
+
+footer {
+  background-color: #260101;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
